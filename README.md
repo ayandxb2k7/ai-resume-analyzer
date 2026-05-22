@@ -29,3 +29,11 @@ python app.py
 
 Open in browser
 http://127.0.0.1:5000
+
+Created By
+
+Ayan Khan
+Computer Science Student 
+BITS Pilani Dubai Campus
+
+Email: f20250376@dubai.bits-pilani.ac.in
