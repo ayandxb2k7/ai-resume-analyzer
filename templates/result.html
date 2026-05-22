@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h4>Match Score: {{ score }}%</h4>
+
+<hr>
+
+<h5>Extracted Skills</h5>
+<ul>
+    {% for skill in skills %}
+        <li>{{ skill }}</li>
+    {% endfor %}
+</ul>
+
+<hr>
+
+<h5>Skills Missing From Job Description</h5>
+<ul>
+    {% for skill in missing_skills %}
+        <li>{{ skill }}</li>
+    {% endfor %}
+</ul>
+
+<a href="/" class="btn btn-secondary mt-3">Analyze Another</a>
+
+{% endblock %}
