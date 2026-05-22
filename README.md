@@ -20,8 +20,7 @@ Frontend: HTML, Bootstrap
 How to Run
 
 Clone the repository
-git clone https://github.com/your-username/ai-resume-analyzer.git
-
+git clone https://github.com/ayandxb2k7/ai-resume-analyzer.git
 Install dependencies
 pip install -r requirements.txt
 
