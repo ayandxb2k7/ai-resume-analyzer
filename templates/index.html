@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3>Upload Resume</h3>
+
+<form method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+        <input class="form-control" type="file" name="resume" required>
+    </div>
+
+    <div class="mb-3">
+        <textarea class="form-control" name="job_desc" rows="6"
+        placeholder="Paste Job Description Here" required></textarea>
+    </div>
+
+    <button class="btn btn-primary">Analyze</button>
+</form>
+
+{% endblock %}
